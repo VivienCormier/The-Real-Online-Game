@@ -1,0 +1,77 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+#live{
+	height: 100%;
+	width: 100%;
+	background: url("../images/arduino.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#bottomBar{
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+#bottomBar h2{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#bottomBar #userIsPlaying, #userIsWaiting, #userNothing {
+  margin-top: 10px;
+}
+
+.link {
+  cursor: pointer; cursor: hand;
+}
+
+#playGame {
+  border: 1px solid white;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  border-radius: 3px;
+}
+
+#noLeapMotion {
+  width: 600px;
+  height: 400px;
+  background: url("../images/no-leapmotion.jpg") no-repeat;
+  margin: auto;
+  position: relative;
+  top: 20%;
+}
+
+#noLeapMotion #closeNoLeapMotion {
+  color: black;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+}
+
+#live #teaser {
+  height: 550px;
+  width: 500px;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -275px;
+  margin-left: -250px;
+  text-align: center;
+}
+
+#live #teaser #closeTeaser {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 10px;
+}
